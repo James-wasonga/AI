@@ -23,6 +23,7 @@ hypothesize(cactus) :-cactus,!.
 hypothesize(moss)   :-moss,!.
 hypothesize(maize)  :-maize,!.
 hypothesize(bean)   :-bean,!.
+hypothesize(nuts)   :-nuts,!.
 hypothesize(unknown).
 
 human :-
@@ -112,6 +113,12 @@ beans :-plant,
         verify(has_flowers),
         verify(produces_bean_seed),
         verify(tap_root).
+
+nuts  :- plant,
+        verify(has_flowers),
+        verify(tap_root),
+        verify(small_leaves),
+        verify(has_pods).
 
 
 # common properties
