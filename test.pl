@@ -13,6 +13,7 @@ hypothesize(dog)    :-dog,!.
 hypothesize(cat)    :-cat,!.
 hypothesize(eagle)  :-eagle,!.
 hypothesize(salmon) :-salmon,!.
+hypothesize(tilapia)    :- tilapia,!.
 hypothesize(cow)    :-cow,!.
 hypothesize(snake)  :-snake,!.
 hypothesize(frog)   :-frog,!.
@@ -63,6 +64,11 @@ salmon  :-
             verify(is_fish),
             verify(scales),
             verify(lives_in_water).
+tilapia :-
+        animal,
+         verify(scales),
+         verify(breath_through_lungs),
+         verify(fins).
 
 snake  :-
         animal,
