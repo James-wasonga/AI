@@ -158,7 +158,7 @@ rice :-
     plant,
     verify(green),
     verify(parallel_leaf_veins),
-    verify(grows_in_water).
+    verify(loves_floddy).
 
 animal :- 
     verify(is_multicellular),
