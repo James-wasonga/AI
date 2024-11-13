@@ -37,7 +37,7 @@ malaria :-flu,
 		verify(nausea_and_vomiting), 
 		verify(diarrhea),
 		verify(abdominal_pain), 
-		verify(muscle_or_joint). 		
+		verify(muscle_or_joint).   		
 			
 cholera	:- 	verify(diarrhea),
 		verify(nausea_and_vomiting),
