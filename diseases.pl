@@ -73,7 +73,7 @@ tuberculosis:-	verify(coughing_for_three_or_more_weeks),
 		verify(loss_of_appetite).
         
 corona :-	flu,
-        cold,
+                cold,
 		verify(tiredness),
 		verify(shortness_of_breath_or_difficulty_breathing),
 		verify(muscle_aches),
