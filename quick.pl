@@ -52,8 +52,11 @@ verify(S) :-
      ->
      fail ;
      ask(S))).
+     
 
 /* undo all yes/no assertions */
 undo :- retract(yes(_)),fail. 
 undo :- retract(no(_)),fail.
 undo.
+
+
