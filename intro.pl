@@ -104,7 +104,7 @@ create(Row,Column):-
 Row >=0,
 Row =< 7,
 Column >= 0,
-Column =< 7.
+Column =< 7.  
 
 attack((Row1,Column1),(Row2,Column2)):-
 Row1 =:= Row2;
