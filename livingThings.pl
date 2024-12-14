@@ -52,7 +52,7 @@ cat :-
 rabbit :-
         animal,
         verify(has_furs),
-        verify(short_tail),
+        verify(short_tail), 
         verify(long_ears),
         verify(four_limbs),
         verify(two_peg_teeths).
